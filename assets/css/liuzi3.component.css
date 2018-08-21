@@ -1,0 +1,105 @@
+.stay-consultation-one{
+    width: 338px;
+    overflow: hidden;
+    border:1px solid #000000;
+    /*box-sizing: border-box;*/
+    padding:35px 45px 30px 35px;
+}
+.stay-consultation-one-body{
+    /* overflow: hidden; */
+    list-style-type:none;
+    margin-top: 0px;
+}
+.stay-consultation-one-body li{
+    width: 100%;
+    margin-top: 11px;
+    float: left;
+    /*padding-left:60px!important;*/
+}
+.stay-consultation-one-chl{
+    float: left;width:60px;height: 43px;text-align: right;line-height: 43px;padding-right: 10px;box-sizing: border-box;
+}
+input[name="if_policies"]{width:15px;height:15px;position:relative;top:3px;margin-top:0;vertical-align: baseline}
+.stay-consultation-one-input {
+    width: 260px;
+    height: 16px;
+    border: 2px solid #000;
+    font-size: 16px;
+    background:transparent;
+    padding:10px 0px;
+    line-height: 16px;
+}
+
+.stay-consultation-one-but{
+    width: 260px;
+    color:#000;
+    font-weight: bold;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 47px;
+    margin-left: 61px;
+    cursor:pointer;
+}
+.stay-consultation-one-age{
+    width: 200px;height:43px;line-height: 43px;
+}
+.stay-consultation-one-fil-s{
+    width: 270px;height:43px;line-height: 43px;margin-left: 61px;
+}
+.stay-consultation-one-fil-select{
+    height: 40px;
+    padding:10px 0;width: 110px;
+    background:transparent;
+    border: 2px solid #000;
+}
+.stay-consultation-one-fil-select option{
+    text-align:center;
+}
+.stay-consultation-one-fil-select-on{
+    height: 40px;
+    padding:10px 0;
+    width: 70px;
+    display:block;
+    float: left;
+    margin-right:4px;
+    background: transparent;
+    border: 2px solid #000
+}
+input::focus, textarea::focus, select::focus {
+    outline-offset: 0px;
+}
+.stay-consultation-one-age-t{
+    font-size: 14px;
+}
+.liuzi1{
+    position: absolute;
+}
+.stay-img-box3{
+    width: 100%;
+    height: 60px;
+    color: #000000;
+    font-size: 33px;
+    text-align: center;
+    padding-left: 31px;
+    box-sizing: border-box;
+}
+.stay-consultation-one-body-li{
+    /*padding-left:60px!important;*/
+}
+.bg-color-three{
+    position: absolute;left: 0;top:0;right: 0;bottom: 0;z-index: -1
+}
+.stay-img-one{
+    width: 142px;
+    height: 23px;
+    margin-top: 13px;
+}
+.bg-color-three{
+position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}

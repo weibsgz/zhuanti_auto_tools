@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/base.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/tuwen1.css">
+    <link rel="stylesheet" href="assets/css/tuwen34.css">
+    <link rel="stylesheet" href="assets/css/button.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/title.css">
+    <meta charset="UTF-8">
+    <title>DIY专题</title>
+</head>
+<body>
+<div class="container">
+    <div class="header-component clearfix">
+        <div class="tool-title">
+            <h1>DIY专题</h1>
+            <a href="javascript:;">&gt 返回列表</a>
+        </div>
+        <div class="header-right">
+            <ul class="clearfix">
+                <li><span class="PC-span cur">PC</span><span class="H5-span">H5</span></li>
+                <li ><span class="zt-name">专题名称</span><input id="ztName" type="text" disabled></li>
+                <li><span class="zt-name url-span">URL定义:<em>TOPIC.XCAR.COM.CN/</em></span><input type="text" id="ztURL" class="url-input" disabled></li>
+
+
+
+                <!-- <li class="del-li"><span>删除</span></li> -->
+                <!-- <li class="publish-li"><span>发布</span></li> -->
+                <li class="save-li" style="margin-right: 30px;"><span>保存</span></li>
+                <li class="scale-li"><span>预览</span></li>
+                <li data-query="button3"><span style="width: 100px;">获取数据</span></li>
+                <li data-query="button4"><span style="width: 100px;">生成HTML</span></li>
+                <li data-query="btnDemo5"><span style="width: 100px;">简单上传</span></li>
+                <li data-query="btnDemo4"><span style="width: 100px;">复杂上传</span></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="body-component">
+        <div class="component-Left">
+            <h1>选择组件库</h1>
+            <ul style="height:500px;overflow-y: scroll;">
+                <li data-query="banner"><span class="icon1">头图</span></li>
+                <li data-query="btn"><span class="icon2">按钮</span></li>
+                <li data-query="title"><span class="icon3">标题栏</span></li>
+                <li data-query="button1_ty"><span class="icon4">焦点图1</span></li>
+                <li data-query="button2_ty"><span class="icon5">焦点图2</span></li>
+                <li data-query="button3_ty"><span class="icon6">焦点图3</span></li>
+                <li data-query="button8-ty"><span class="icon7">留资1</span></li>
+                <li data-query="button9-ty"><span class="icon8">留资2</span></li>
+                <li data-query="tuwen1_btn"><span class="icon9">图文1</span></li>
+                <li data-query="tuwen2_btn"><span class="icon10">图文2</span></li>
+                <li data-query="tuwen3_btn"><span class="icon11">图文3</span></li>
+                <li data-query="tuwen4_btn"><span class="icon12">图文4</span></li>
+                <li data-query="video-button"><span class="icon13">大播放器</span></li>
+                <li data-query="video-buttonSmall"><span class="icon13">小播放器</span></li>
+                <li data-query="addTabBtn"><span class="icon14">标签</span></li>
+            </ul>
+            <button id="zd_btn" class=""></button>
+        </div>
+
+        <div class="component-Right" id="scrolldIV">
+            <div class="component-Right-Header">
+                <span class="">组件设置</span><span class="cur">专题设置</span>
+            </div>
+            <div class="indexTab">
+                <div class="configBox" data-query="configBox" style=" left:500px">
+
+                </div>
+                <div class="bgBox" >
+                    <div class="bgBoxLine clearfix">
+                        <span></span>
+                        <b>图片</b>
+                        <span></span>
+                    </div>
+                    <div class="bgInput">
+                        <h4>组件</h4>
+                        <dl class="clearfix">
+                            <dt>
+                                <input id="bgInput" disabled="true" value="" class="" type="text" placeholder="" data-name="imgSrc">
+                                <span>X：</span>
+                            </dt>
+                            <dd id='bgPicker'>本地上传</dd>
+                        </dl>
+                        <i>说明：设计稿背景图</i>
+                        <div class="padTop15 clearfix">
+                            <h4>背景高度</h4>
+                            <input data-key="" type="text" class="url_input" value="">
+                            <div id="bodyHeight">设置</div>
+                        </div>
+                        <i>说明：设计稿页面高度,只填入数字</i>
+                        <div class="padTop15">
+                            <h4>专题标题</h4>
+                            <input type="text" class="title_input">
+                        </div>
+                        <div class="padTop15">
+                            <h4>专题关键字</h4>
+                            <textarea class="keywords"></textarea>
+                        </div>
+                        <div class="padTop15">
+                            <h4>专题描述</h4>
+                            <textarea class="write_zt"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="zd_btn" class=""></button>
+        </div>
+        <div class="component-Main">
+            <div data-query="canvasBox" class="canvas-box">
+                <div class="fz_line"></div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+<!-- <div data-query="canvasBox" style="min-height:150px"></div>
+<div data-query="configBox" style="min-height:150px;"></div>
+<button data-query="banner">头图</button>
+<button data-query="btn">按钮</button>
+<button data-query="title">标题</button>
+<button data-query="button1">组件22222</button>
+<button data-query="button2">组件2</button>
+<button data-query="tuwen1_btn">图文1</button>
+<button data-query="tuwen2_btn">图文2</button>
+<button data-query="tuwen3_btn">图文3</button>
+<button data-query="tuwen4_btn">图文4</button>
+<button data-query="button6">3D-轮播图</button>
+<button data-query="button7">普通轮播图</button>
+<button data-query="button8">留咨</button>
+<button data-query="button3">获取数据</button>
+<button data-query="button4">生成HTML</button>
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <button type="submit">上传文件</button>
+</form>
+<div class="editorbox">
+    <div class="editor_banner editor_common">
+        <h1 class="banner_img">头图</h1>
+        <h4>组件</h4>
+        <dl class="clearfix">
+            <dt>
+                <input type="text" placeholder="">
+                <span>X：</span>
+            </dt>
+            <dd>本地上传</dd>
+        </dl>
+        <i>说明：JPG.PNG</i>
+    </div>
+</div>
+======================
+<div class="editorbox">
+    <div class="editor_banner editor_common">
+        <h1 class="banner_img">按钮</h1>
+        <h4>组件</h4>
+        <dl class="clearfix">
+            <dt>
+                <input type="text" placeholder="">
+                <span>X：</span>
+            </dt>
+            <dd>本地上传</dd>
+        </dl>
+        <i>说明：JPG.PNG</i>
+        <div class="padTop15">
+            <h4>跳转链接</h4>
+            <input type="text" class="url_input">
+        </div>
+    </div>
+</div>
+================
+<div class="editorbox">
+    <div class="editor_banner editor_common">
+        <h1 class="banner_img">标题栏</h1>
+        <h4>组件</h4>
+        <dl class="clearfix">
+            <dt>
+                <input type="text" placeholder="">
+                <span>X：</span>
+            </dt>
+            <dd>本地上传</dd>
+        </dl>
+        <i>说明：JPG.PNG</i>
+        <div class="padTop15">
+            <h4>跳转链接</h4>
+            <input type="text" class="url_input">
+        </div>
+    </div>
+</div>
+================
+<div class="editorbox">
+    <div class="editor_banner editor_common">
+        <h1 class="banner_img">焦点图1</h1>
+        <h4>图片上传</h4>
+        <dl class="clearfix">
+            <dt>
+                <input type="text" placeholder="">
+                <span>X：</span>
+            </dt>
+            <dd>本地上传</dd>
+        </dl>
+        <i>说明：JPG.PNG</i>
+        <div class="padTop15">
+            <h4>标题</h4>
+            <input type="text" class="url_input">
+        </div>
+        <div class="padTop15">
+            <h4>描述</h4>
+            <textarea></textarea>
+        </div>
+        <div class="padTop15">
+            <h4>跳转链接</h4>
+            <input type="text" class="url_input">
+        </div>
+        <div class="padTop20">
+            <button>+增加图片</button>
+        </div>
+    </div>
+</div>
+================
+<div class="editorbox">
+    <div class="editor_banner editor_common">
+        <h1 class="banner_img">焦点图2</h1>
+        <h4>图片上传</h4>
+        <dl class="clearfix">
+            <dt>
+                <input type="text" placeholder="">
+                <span>X：</span>
+            </dt>
+            <dd>本地上传</dd>
+        </dl>
+        <i>说明：JPG.PNG</i>
+        <div class="padTop15">
+            <h4>标题</h4>
+            <input type="text" class="url_input">
+        </div>
+        <div class="padTop15">
+            <h4>描述</h4>
+            <textarea></textarea>
+        </div>
+        <div class="padTop15">
+            <h4>跳转链接</h4>
+            <input type="text" class="url_input">
+        </div>
+        <div class="padTop20">
+            <button>+增加图片</button>
+        </div>
+    </div>
+</div>
+================
+<div class="editorbox">
+    <div class="editor_banner editor_common">
+        <h1 class="banner_img">图文1</h1>
+        <h4>图片上传</h4>
+        <dl class="clearfix">
+            <dt>
+                <input type="text" placeholder="">
+                <span>X：</span>
+            </dt>
+            <dd>本地上传</dd>
+        </dl>
+        <i>说明：JPG.PNG</i>
+        <div class="padTop15">
+            <h4>标题</h4>
+            <input type="text" class="url_input" placeholder="13个字符之内">
+        </div>
+        <div class="padTop15">
+            <h4>跳转链接</h4>
+            <input type="text" class="url_input" placeholder="">
+        </div>
+    </div>
+</div>
+================
+<div class="editorbox">
+    <div class="editor_banner editor_common">
+        <h1 class="banner_img">图文2</h1>
+        <h4>图片上传</h4>
+        <dl class="clearfix">
+            <dt>
+                <input type="text" placeholder="">
+                <span>X：</span>
+            </dt>
+            <dd>本地上传</dd>
+        </dl>
+        <i>说明：JPG.PNG</i>
+        <div class="padTop15">
+            <h4>标题</h4>
+            <input type="text" class="url_input" placeholder="13个字符之内">
+        </div>
+        <div class="padTop15">
+            <h4>描述</h4>
+            <textarea></textarea>
+        </div>
+        <div class="padTop15">
+            <h4>跳转链接</h4>
+            <input type="text" class="url_input" placeholder="13个字符之内">
+        </div>
+    </div>
+</div>
+================
+<div class="editorbox">
+    <div class="editor_banner editor_common">
+        <h1 class="banner_img">播放器</h1>
+        <ul class="clearfix tabbtn">
+            <li class="active">点播</li>
+            <li>直播</li>
+        </ul>
+        <div class="video_box">
+            <section>
+                <h4>视频1链接</h4>
+                <input type="text" class="url_input" placeholder="">
+                <div class="padTop20">
+                    <button>+增加视频</button>
+                </div>
+            </section>
+            <section style="display: none">
+                <h4>直播链接</h4>
+                <input type="text" class="url_input" placeholder="">
+                <div class="padTop20">
+                    <h4>IFRAME代码</h4>
+                    <textarea></textarea>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+===================
+<div class="editorbox">
+    <div class="editor_banner editor_common">
+        <h1 class="banner_img">标签</h1>
+        <ul class="clearfix tagbox">
+            <li>上</li>
+            <li>下</li>
+            <li>左</li>
+            <li>右</li>
+        </ul>
+        <h4>组件</h4>
+        <dl class="clearfix">
+            <dt>
+                <input type="text" placeholder="">
+                <span>X：</span>
+            </dt>
+            <dd>本地上传</dd>
+        </dl>
+        <i>说明：JPG.PNG</i>
+        <div class="swichbox clearfix">
+            <p>切换方式：</p>
+            <ul>
+                <li>点播</li>
+                <li>直播</li>
+            </ul>
+        </div>
+        <div class="swich_wrap">
+            <h5>切换内容</h5>
+            <ul class="clearfix">
+                <li>图片</li>
+                <li>文章</li>
+                <li>视频</li>
+                <li>表格</li>
+            </ul>
+        </div>
+        <h4>图片上传</h4>
+        <dl class="clearfix">
+            <dt>
+                <input type="text" placeholder="">
+                <span>X：</span>
+            </dt>
+            <dd>本地上传</dd>
+        </dl>
+        <div class="padTop15">
+            <h4>标题</h4>
+            <input type="text" class="url_input" placeholder="13个字符之内">
+        </div>
+        <div class="padTop15">
+            <h4>跳转链接</h4>
+            <input type="text" class="url_input" placeholder="">
+        </div>
+        <div class="padTop20">
+            <button>+增加图片</button>
+        </div>
+        <div class="padTop20">
+            <button>+增加标签</button>
+        </div>
+    </div>
+</div>
+=======
+
+<div class="container">
+        <div class="header">
+                123
+        </div>
+    </div>
+
+<button data-query="btnDemo3">Demo3数据修改</button> -->
+
+<script src="dist/vendors.dll.js"></script>
+<script src="dist/editor.full.min.js"></script>
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,16 @@
+.videoBig{position:relative;width:960px;height:470px;}
+.videoBig .prevBig span,.videoBig .nextBig span{display:inline-block;background-image:url(http://icon.xcar.com.cn/2014/template/images/slider-arrows.png);background-repeat:no-repeat;width:38px;height:88px}
+.videoBig .prevBig,.videoBig .nextBig{display:none;position:absolute;z-index:5;top:50%;width:38px;height:88px;margin-top:-44px;cursor:pointer;border:1px solid #222;background-color:rgba(0,0,0,.6);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000',endColorstr='#99000000')}
+:root .videoBig .prevBig,:root .videoBig .nextBig{filter:none;background-color:rgba(0,0,0,0.6)}
+.videoBig .prevBig:hover,.videoBig .nextBig:hover{background-color:rgba(0,0,0,1);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#ff000000',endColorstr='#ff000000')}
+:root .videoBig .prevBig:hover,:root .videoBig .nextBig:hover{filter:none;background-color:rgba(0,0,0,1)}
+.videoBig .prevBig{left:0px}
+.videoBig .prevBig span{background-position:-2px 0}
+.videoBig .nextBig{right:0px}
+.videoBig .nextBig span{background-position:-36px 0}
+.videoBig .view{position:relative;width:100%;height:100%;margin:0 auto;overflow:hidden;}
+.videoBig .text{position:relative;height:39px;overflow:hidden}
+.videoBig .view li{position:absolute;top:0;left:0;display:none;width:100%;height:100%;}
+.videoBig .view li.current{display:block;}
+.box-contentBig{display: none;}
+.singalvideoBig{display:none;width:100%;height:100%;}

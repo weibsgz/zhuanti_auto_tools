@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/base.css"/>
+   
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/tuwen1.css">
+    <link rel="stylesheet" href="assets/css/tuwen34.css">
+    <link rel="stylesheet" href="assets/css/button.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/title.css">
+    <link rel="stylesheet" href="assets/css/table.css">
+    <!-- <link rel="stylesheet" href="assets/css/scale.css"> -->
+    <link rel="stylesheet" href="assets/css/tab.component.css">
+    <link rel="stylesheet" href="assets/css/liuzi1.component.css">
+    <link rel="stylesheet" href="assets/css/liuzi2.component.css">
+    <link rel="stylesheet" href="assets/css/liuzi3.component.css">
+    <link rel="stylesheet" href="http://t.xcar.com.cn/zteditor/assets/css/banner3.component.css">
+    <meta charset="UTF-8">
+    <title>DIY专题</title>
+</head>
+<body>
+    <div class="container">
+                <div class="header-component clearfix">
+                    <div class="tool-title">
+                        <h1>DIY专题</h1>
+                        <a href="http://t.xcar.com.cn/index.php/topicManage/TopicList/">&gt 返回列表</a>
+                    </div>
+                    <div class="header-right">
+                        <ul class="clearfix">
+                            <li ><span class="zt-name">专题名称</span><input id="ztName" type="text" disabled></li>
+                            <li><span class="zt-name url-span">URL定义:<em>zt.xcar.com.cn/x/</em></span><input type="text" id="ztURL" class="url-input" disabled></li>
+                            
+                            
+                            
+                            <!-- <li class="del-li"><span>删除</span></li> -->
+                            <!-- <li class="publish-li"><span>发布</span></li> -->
+                            <li class="save-li" style="margin-right: 30px;"><span>保存</span></li>
+                            <li class="scale-li"><span>预览</span></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="body-component">
+                    <div class="component-Left">
+                        <h1>选择组件库</h1>
+                        <ul style="height:calc(100vh - 80px - 40px);overflow-y: scroll;">
+                            <li data-query="banner"><span class="icon1">头图</span></li>
+                            <li data-query="btn"><span class="icon2">按钮</span></li>
+                            <li data-query="title"><span class="icon3">标题栏</span></li>
+                            <li data-query="button1_ty"><span class="icon4">焦点图1</span></li>
+                            <!-- <li data-query="button2_ty"><span class="icon5">焦点图2</span></li> -->
+                            <li data-query="button3_ty"><span class="icon6">焦点图3</span></li>
+                            <!--<li data-query="button8-ty"><span class="icon8">留资1</span></li>-->
+                            <li data-query="button9-ty"><span class="icon7">留资2</span></li>
+                            <li data-query="button10-ty"><span class="icon7">留资3</span></li>
+                            <li data-query="tuwen1_btn"><span class="icon9">图文1</span></li>
+                            <li data-query="tuwen2_btn"><span class="icon10">图文2</span></li>
+                            <li data-query="tuwen3_btn"><span class="icon11">图文3</span></li>
+                            <li data-query="tuwen4_btn"><span class="icon12">图文4</span></li>
+                            <li data-query="video-button"><span class="icon13">大播放器</span></li>
+                            <li data-query="video-buttonSmall"><span class="icon13">小播放器</span></li>
+                            <li data-query="addTabBtn"><span class="icon14">标签</span></li>
+                            <li data-query="table4_btn"><span class="icon15">表格4</span></li>
+                            
+                        </ul>
+                        <button id="zd_btn" class=""></button>
+                    </div>
+                    
+                    <div class="component-Right" id="scrolldIV">
+                        <div class="component-Right-Header">
+                            <span class="">组件设置</span><span class="cur">专题设置</span>
+                        </div>
+                        <div class="indexTab">
+                            
+                            <div class="configBox" data-query="configBox" style=" left:500px">
+                            
+                            </div>
+                            <div class="bgBox" id="bgBoxs">
+                                <div class="bgBoxLine clearfix">
+                                    <span></span>
+                                    <b>图片</b>
+                                    <span></span>
+                                </div>
+                                <div class="bgInput">
+                                    <h4>组件</h4>
+                                    <dl class="clearfix">
+                                        <dt>
+                                            <input id="bgInput" disabled="true" value="" class="" type="text" placeholder="" data-name="imgSrc">
+                                            <span>X：</span>
+                                        </dt>
+                                        <dd id='bgPicker'>本地上传</dd>
+                                    </dl>
+                                    <i>说明：设计稿背景图</i>
+                                    <div class="padTop15 clearfix">
+                                        <h4>背景高度</h4>
+                                        <input data-key="" type="text" class="url_input height_input" value="">
+                                        <div id="bodyHeight">设置</div>
+                                    </div>
+                                    <i>说明：设计稿页面高度,只填入数字</i>
+                                    <div class="padTop15">
+                                        <h4>专题标题</h4>
+                                        <input type="text" maxlength="20" class="title_input">
+                                    </div>
+                                    <div class="padTop15">
+                                        <h4>专题关键字</h4>
+                                        <textarea class="keywords" maxlength="200"></textarea>
+                                    </div>
+                                    <div class="padTop15">
+                                        <h4>专题描述</h4>
+                                        <textarea class="write_zt" maxlength="200"></textarea>
+                                    </div>
+                                    <i class="seoi">说明：seo范例</i>
+                                    <div class="padTop15">
+                                        <h4>第三方代码1</h4>
+                                        <textarea class="thirdPartCode1" maxlength="200"></textarea>
+                                    </div>
+                                    <div class="padTop15">
+                                        <h4>第三方代码2</h4>
+                                        <textarea class="thirdPartCode2" maxlength="200"></textarea>
+                                    </div>
+                                    <div class="padTop15">
+                                        <h4>关联专题</h4>
+                                        <textarea class="linkTopic" maxlength="200" placeholder=""></textarea>
+                                        <i class="seoi">说明：输入专题链接</i>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <button id="zd_btn1" class=""></button>
+                    </div>
+                    <div class="component-Main">
+                        <div data-query="canvasBox" class="canvas-box" id="target">
+                            <div class="fz_line1"></div>
+                            <canvas class="fz_line"></canvas>
+                          
+                        </div>
+                        
+                    </div>
+                    
+
+                </div>
+            </div>
+            <!--删除确认弹窗大  Start-->
+            <div class="ztDelBox">
+                <div class="ztCloseBtn"></div>
+                <div class="ztDelBoxInner">
+                   <p>是否确认删除？</p>
+                <a href="javascript:;" class="ztOperateBtn ztOperateCancelBtn">取消</a>
+                <a href="javascript:;" class="ztOperateBtn ztOperateDelBtn">确定</a>
+            </div>    
+            </div> 
+            <!--删除确认弹窗  End-->
+
+             <!--删除确认弹窗  Start-->
+             <div class=" ztDelBoxSmall">
+                    <div class="ztCloseBtnSmall"></div>
+                    <div class="ztDelBoxInnerSmall">
+                       <p>是否确认删除？</p>
+                    <a href="javascript:;" class="ztOperateBtn  ztOperateCancelBtnSmall">取消</a>
+                    <a href="javascript:;" class="ztOperateBtn  ztOperateDelBtnSmall">确定</a>
+                </div>    
+                </div> 
+                <!--删除确认弹窗  End-->
+                <div class="bgDelBox"></div>
+    <script src="dist/vendors.dll.js"></script>
+    <script src="dist/editor.full.min.js"></script>
+</body>
+
+
+
+
+</html>

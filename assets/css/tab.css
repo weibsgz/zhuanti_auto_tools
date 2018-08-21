@@ -1,0 +1,135 @@
+.tab-switching-box{
+    width: 770px;
+    height: 573px;
+    position: relative;
+}
+.tab-switching{
+    width: 770px;
+    height: 495px;
+    position: absolute;
+    /* left: 19%; */
+    /* top: 17%; */
+    /* margin-left: -50px; */
+    /* margin-top: -50px; */
+    /* background-color: #507BFC; */
+}
+.tab-switching-top{
+    /* width: 965px; */
+    height: 65px;
+    /* position: absolute; */
+    /* left: 14%; */
+    top: -1%;
+    /* margin-left: 9px; */
+    /* margin-top: -2px; */
+}
+.tab-switching-bottom{
+    width: 770px;
+    height: 65px;
+    position: absolute;
+    left: 0;
+    bottom: 1%;
+    margin-bottom: 7px;
+}
+.tab-switching-left{
+    width: 153px;
+    overflow: hidden;
+    position: absolute;
+    left: -153px;
+    top: 0;
+
+}
+.tab-switching-right{
+    width: 153px;
+    overflow: hidden;
+    position: absolute;
+    right: -153px;
+    top: 0;
+}
+.tab-switching-top-tab{
+    width: 770px;
+    height: 65px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.tab-switching-top-tab li{
+    float: left;
+    width: 153px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 20px;
+    color: #ffffff;
+    /*background-color: #868686;*/
+    font-weight: bold;
+    cursor:pointer;
+}
+.tab-switching-bottom-tab{
+    width: 770px;
+    height: 65px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.tab-switching-bottom-tab li{
+    float: left;
+    width: 153px;
+    text-align: center;
+    line-height: 67px;
+    font-size: 20px;
+    overflow:hidden;
+    color: #ffffff;
+    background-color: #868686;
+    font-weight: bold;
+    cursor:pointer;
+    height: 100%;
+}
+.tab-switching-left-tab{
+    width: 180px;
+    height: 495px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.tab-switching-left-tab li{
+    width: 153px;
+    text-align: center;
+    line-height: 67px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #868686;
+    font-weight: bold;
+    cursor:pointer;
+}
+.tab-switching-right-tab{
+    width: 180px;
+    height: 495px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.tab-switching-right-tab li{
+    width: 153px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #868686;
+    font-weight: bold;
+    cursor:pointer;
+}
+.tab-switching-top-mar{
+    width:153px;
+    height:67px;
+    margin-right: 1px;
+}
+.tab-switching-left-right-mar{
+    /*margin-top: 1px;*/
+    height:67px;
+}
+
+.tab-switching div.div-el{
+    display: none;
+}
+.cur{
+    /*background-color:#ff2a2a !important;*/
+}

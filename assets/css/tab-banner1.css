@@ -1,0 +1,65 @@
+.xfocus_06{position:relative;width:540px;}
+.xfocus_06 .prev4 span,.xfocus_06 .next4 span{display:inline-block;background-image:url(http://icon.xcar.com.cn/2014/template/images/slider-arrows.png);background-repeat:no-repeat;width:38px;height:88px}
+.xfocus_06 .prev4,.xfocus_06 .next4{display:none;position:absolute;z-index:5;top:50%;width:38px;height:88px;margin-top:-44px;cursor:pointer;border:1px solid #222;background-color:#000;opacity:.6;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000',endColorstr='#99000000')}
+ .xfocus_06 .prev4, .xfocus_06 .next4{filter:alpha(opacity=60);background-color:#000;opacity:.6;}
+.xfocus_06 .prev4:hover,.xfocus_06 .next4:hover{background-color:#000;opacity:1;filter:alpha(opacity=100);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#ff000000',endColorstr='#ff000000')}
+
+.xfocus_06 .prev4{left:0px}
+.xfocus_06 .prev4 span{background-position:-2px 0}
+.xfocus_06 .next4{right:0px}
+.xfocus_06 .next4 span{background-position:-36px 0}
+.xfocus_06 .view{position:relative;width:540px;height:495px;overflow:hidden;background: #000}
+.xfocus_06 .text{position:relative;height:39px;overflow:hidden}
+.xfocus_06 .view li{position:absolute;top:0;left:0;display:none}
+.xfocus_06 .view li.current{display:block;}
+.xfocus_06 .view li img{width: 540px;height: 495px;}
+.xfocus_06 .text li{display:none;height:38px;background-color:#f8f8f8;font:normal 14px/38px 'Microsoft YaHei';text-align:center}
+.xfocus_06 .text .current{display:block}
+.xfocus_06 .slider{position:absolute;z-index:12;top:195px;width:350px;height:12px;text-align:center}
+.xfocus_06 .slider li{display:inline-block;width:11px;height:11px;overflow:hidden;margin:0 3px;background:url(http://icon.xcar.com.cn/2013/index/images/focus_slider1.png) no-repeat;_background:0;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://icon.xcar.com.cn/2013/index/images/focus_slider1.png");cursor:pointer}.xfocus_06 .slider li{*display:inline;}
+.xfocus_06 .slider .current{background:url(http://icon.xcar.com.cn/2013/index/images/focus_slider2.png) no-repeat;_background:0;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://icon.xcar.com.cn/2013/index/images/focus_slider2.png")}
+.box-content{
+    width: 770px;
+    height: 495px;
+}
+ a:hover{
+    text-decoration:none;
+}
+.box-content-list1{
+    width: 230px;
+    height: 495px;
+    background: #373737;
+}
+.box-content-list1 .text ul li{
+    position:relative;
+    height: 495px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:15px;
+}
+.box-content-list1 .fix-a{text-decoration:none}
+.box-content-list1 .fix-a:hover{text-decoration:underline;}
+.box-content-list1 .text ul li a{
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 22px;
+    display: block;
+    width: 230px;
+    white-space: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    text-align: left;
+}
+.box-content-list1 .text ul li .current-box{
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 391px;
+    word-break: break-all;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+.text-ctl ul li{
+    line-height: 0px!important;
+}

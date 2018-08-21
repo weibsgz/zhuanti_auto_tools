@@ -1,0 +1,566 @@
+
+.container{width:100%;margin:0 auto;height: 100%;}
+.header-component{
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    position: fixed;
+    top:0px;
+    z-index: 100;
+}
+.tool-title{display:block;float:left;width:150px;padding-top:20px;height:80px;padding-left:20px;background:#507BFC; font-family: Microsoft YaHei;color: #FFFFFF;}
+.tool-title h1 {
+    font-size: 20px;
+    line-height:28px;
+    height:28px;
+}
+.tool-title a{
+    font-size: 10px;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+.header-right{float:Left;width: calc(100% - 150px);;height:80px;padding:20px 0 20px 0px;background:#EBEBEB;}
+.header-right ul li{float:left;margin-left:30px;}
+.header-right ul li span{display:block;float:left;width:60px;height:32px;line-height:32px;font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #507BFC;
+    text-align:center;}
+.header-right ul li span.PC-span{border: 1px solid #507BFC;border-radius: 4px 0 0 4px;border-right:none;}
+.header-right ul li span.H5-span{border: 1px solid #507BFC; background-color: #fff;
+    border-radius: 0 4px 4px 0;}
+.header-right ul li span.cur{color: #FFFFFF;background: #507BFC;}
+.header-right ul li span.zt-name{display:inline-block; width:80px;margin-top:8px;height:20px;line-height:20px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #666666;padding-right:10px;}
+.header-right ul li span.url-span{width:auto;}
+
+.header-right ul li span em{color:#000000}
+.header-right ul li input{background: #FFFFFF;height:32px;line-height:32px;
+    border: 1px solid #B6BECD; padding-left: 10px;
+    border-radius: 2px;width:160px;}
+.header-right ul li.scale-li{
+    font-size: 12px; float: right;
+    color: #4A4A4A;border-radius: 4px;border: 1px solid #B6BECD;}
+.header-right ul li.scale-li span{font-size: 12px;
+    color: #4A4A4A;  background-color: #fff; cursor: pointer;}
+.header-right ul li.save-li,.header-right ul li.publish-li,.header-right ul li.del-li{border: 1px solid #B6BECD;
+    border-radius: 4px;margin-left:10px; float:right; background-color: #fff;  cursor: pointer;}
+.header-right ul li.save-li span,.header-right ul li.publish-li span,.header-right ul li.del-li span{font-size: 12px;
+    color: #4A4A4A;}
+/*.body-component{width:100%;height: calc(100% - 80px);overflow: hidden;}*/
+
+.component-Left{
+    width:150px;
+    border-right: 1px solid #eeeeee;
+    position: fixed;
+    left: 0px;
+    top:80px;
+    height: 100%;
+    z-index: 3;
+    background: #fff;
+}
+.component-Left h1{
+    width:100%;
+    padding-left:20px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #666666;
+    background: #F7F8FA;
+    border: 0 solid #979797;
+    height:40px;
+    line-height:40px;
+}
+.component-Left ul{padding-top:0;}
+.component-Left ul li{padding:0px 20px;cursor: pointer;height: 45px;line-height: 45px}
+.component-Left ul li span{display:block;display: block;line-height: 45px;height: 45px;background-repeat: no-repeat;background-position: left center;}
+.component-Left ul li span.icon1{padding-left:32px;background-image:url("../images/icon.jpg");background-size:20px 19px;}
+.component-Left ul li span.icon2{padding-left:32px;background-image:url("../images/icon-02.jpg");background-size:20px 19px;}
+.component-Left ul li span.icon3{padding-left:32px;background-image:url("../images/icon-03.jpg");background-size:21px 17px;}
+.component-Left ul li span.icon4{padding-left:32px;background-image:url("../images/icon-04.jpg");background-size:21px 14px;}
+.component-Left ul li span.icon5{padding-left:32px;background-image:url("../images/icon-05.jpg");background-size:21px 17px;}
+.component-Left ul li span.icon6{padding-left:32px;background-image:url("../images/icon-06.jpg");background-size:21px 16px;}
+.component-Left ul li span.icon7{padding-left:32px;background-image:url("../images/icon-07.jpg");background-size:21px 18px;}
+.component-Left ul li span.icon8{padding-left:32px;background-image:url("../images/icon-08.jpg");background-size:21px 20px;}
+.component-Left ul li span.icon9{padding-left:32px;background-image:url("../images/icon-09.jpg");background-size:21px 18px;}
+.component-Left ul li span.icon10{padding-left:32px;background-image:url("../images/icon-10.jpg");background-size:21px 18px;}
+.component-Left ul li span.icon11{padding-left:32px;background-image:url("../images/icon-11.jpg");background-size:21px 18px;}
+.component-Left ul li span.icon12{padding-left:32px;background-image:url("../images/icon-12.jpg");background-size:21px 18px;}
+.component-Left ul li span.icon13{padding-left:32px;background-image:url("../images/icon-13.jpg");background-size:21px 18.5px;}
+.component-Left ul li span.icon14{padding-left:32px;background-image:url("../images/icon-14.jpg");background-size:21px 21px;}
+.component-Left ul li span.icon15{padding-left:32px;background-image:url("../images/icon-15.jpg");background-size:23px 22px;}
+.component-Left button#zd_btn{
+    background: url(http://t.xcar.com.cn/zteditor/assets/img/icon-leftbtn.png) no-repeat 0 0;
+    background-size: contain;
+    width: 15px;
+    height: 41px;
+    position: absolute;
+    left: 150px;
+    top: 50%;
+    margin-top: -60px;
+    cursor: pointer;
+    border: none;
+}
+.component-Main{
+    overflow:auto;
+    margin-left: 150px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    margin-right: 260px;
+    min-height: calc(100vh - 88px);
+    background:#fff;
+    position: relative;
+}
+.component-Main .bg_imgs{
+    width: 100%;
+    text-align: center
+}
+.component-Main .canvas-box{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -500px;
+    width: 1000px;
+    /* border-left:1px solid #edc9fe;
+    border-right: 1px solid #edc9fe; */
+    min-height: calc(100vh - 88px);
+    box-sizing: border-box; 
+    /* overflow: auto; */
+    height: 100%;
+}
+.component-Main .fz_line1{
+    width: 1000px;
+    border-left:1px solid #edc9fe;
+    border-right: 1px solid #edc9fe;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 0;
+   /*background: url('../images/canvasBoxBg.png')  repeat-y;*/
+}
+.component-Main .fz_line{
+    width: 1000px;
+    border-left:1px solid #edc9fe;
+    border-right: 1px solid #edc9fe;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 1;
+   /*background: url('../images/canvasBoxBg.png')  repeat-y;*/
+}
+.component-Main .fz_line li{
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.component-Main .dragDiv{
+    z-index: 2;
+}
+.component-Right{
+    position: fixed;
+    top: 80px;
+    right: 0px;
+    height:100%;
+    width:259px;
+    border-left: 1px solid #eeeeee;
+    background: #F7F8FA;
+    z-index: 3;
+    /*padding-bottom: 100px;*/
+    /*overflow-y: auto;*/
+}
+.component-Right button#zd_btn1{
+    background: url(http://t.xcar.com.cn/zteditor/assets/img/icon-rightbtn.png) no-repeat 0 0;
+    background-size: contain;
+    width: 15px;
+    height: 41px;
+    position: absolute;
+    left: -14px;
+    top: 50%;
+    margin-top: -60px;
+    cursor: pointer;
+    border: none;
+}
+.component-Right-Header{
+    height:40px;
+}
+.component-Right-Header span{
+    display:block;
+    float: left;
+    width:127px;
+    height:40px;
+    line-height:40px;
+    background: #F7F8FA;
+    border: 0 solid #979797;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #4A4A4A; border-bottom: 1px solid #ccc;text-align:center;
+    cursor: pointer;
+}
+.component-Right-Header span.cur {
+    background: #507BFC;
+    color:#FFFFFF;
+    border-bottom: 1px solid #507BFC
+}
+.indexTab{
+    position: relative;
+}
+.bgBox{
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height:500px;
+    overflow-y: scroll;
+    /*display: none;*/
+}
+.configBox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*padding-bottom: 150px;*/
+}
+.bgBox .bgBoxLine{
+    margin-bottom: 14px;
+    width:217px;
+}
+.bgBox .bgBoxLine span{
+    float: left;
+    display: block;
+    width: 90px;
+    height: 1px;
+    background:#979797;
+    opacity: 0.2;
+    margin-top: 6px;
+} 
+.bgBox .bgBoxLine b{
+    color: #4A4A4A;
+    font-size: 12px;
+    opacity: 0.2;
+    display: block;
+    float: left;
+    margin: 0 5px;
+    font-weight: normal;
+}
+.bgInput h4{
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 7px;
+    font-weight: normal;
+}
+.bgInput dt{
+    float: left;
+    width: 150px;
+    position: relative;
+}
+.bgInput input{
+    width: 150px;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 43px;
+    border: 1px solid #B6BECD;
+}
+.bgInput span{
+    color: #666666;
+    font-size: 12px;
+    position: absolute;
+    left: 15px;
+    top: 9px;
+}
+.bgInput dd{
+    float: right;
+    width: 60px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    color: #4A4A4A;
+    border: 1px solid #B6BECD;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+}
+.bgInput i{
+    display: block;
+    color: #F5A623;
+    font-size: 12px;
+    padding-top: 3px
+}
+.bgInput .url_input{
+    width: 150px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #B6BECD;
+    padding-left: 5px;
+    float: left;
+}
+.bgInput .title_input{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #B6BECD;
+    padding-left: 5px;
+}
+.bgInput textarea{
+    border: 1px solid #B6BECD;
+    background: #fff;
+    padding: 5px;
+    width: 100%;
+    height: 86px;
+}
+
+.bgInput #bodyHeight{
+    float: right;
+    width: 60px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    color: #4a4a4a;
+    border: 1px solid #B6BECD;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #fff;
+    text-align: center;
+}
+.stay-sultation{
+    width: 100%;
+    /*height: 300px;*/
+}
+.stay-sultation ul {
+    width: 100%;
+    /*height: 300px;*/
+}
+.stay-sultation ul li{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left:30px;
+    margin-top: 8px;
+    /*cursor: move;*/
+}
+.stay-sultation-icon{
+    display:block;
+    background-size: 100%;
+    float: left;
+    background-image:url(../../assets/img/icon-check.png);background-repeat:no-repeat;width:14px;height:14px;
+}
+.current-liuzi{
+    display:block;
+    background-size: 100%;
+    float: left;
+    background-image:url(../../assets/img/icon-checkH.png);background-repeat:no-repeat;width:14px;height:14px;
+}
+.stay-sultation-text{
+    font-size: 12px;color: #4A4A4A;margin-left: 5px;
+}
+.bg-lefts,.bg-rights{background-color:rgba(0,0,0,0.6);display:inline-block;position:absolute;;top:50%;margin-top:-44px;background-image:url(http://icon.xcar.com.cn/2014/template/images/slider-arrows.png);background-repeat:no-repeat;width:28px;height:88px}
+ .bg-rights{background-position:-40px 0}
+ .bg-lefts{background-position:-6px 0}
+.bg-lefts{left:0;}
+.bg-rights{right:0;}
+
+
+
+.editorbox-body{
+    height:550px!important;
+    overflow-y: auto;
+    position: absolute;
+    padding-bottom: 100px!important;
+}
+
+
+
+.dragDiv .del{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background: rgba(0,0,0,.8);
+    z-index: 1000;
+}
+/*删除确认弹窗 Start*/
+.ztDelBox{
+    z-index:1001;
+    display:none;
+    position:absolute;
+    width:360px;
+    height:147px;
+    left:50%;
+    margin-left:-180px;
+    top:50%;
+    margin-top: -73.5px;
+    background:#e2e2e2;
+}
+.ztDelBoxSmall{
+    z-index:1001;
+    display:none;
+    position:fixed;
+    width:240px;
+    height:147px;
+     right:10px;
+    top:300px;
+    
+    background:#e2e2e2;
+
+}
+.ztDelBoxInner,.ztDelBoxInnerSmall{
+    height:147px;
+    width:100%;
+    padding-bottom:30px;
+    padding-top:40px;
+}
+.ztCloseBtn,.ztCloseBtnSmall{
+    display:block;
+    cursor: pointer;
+    position:absolute;
+    top:15px;
+    right:15px;
+    width:20px;
+    height:20px;
+   background:url("../images/close.png") no-repeat;
+}
+.ztDelBox p,.ztDelBoxSmall p{
+    height:22px;
+    text-align: center;
+    font: 16px/22px "Microsoft YaHei";
+    font-weight: bold;
+    color: #4A4A4A;
+}
+.ztOperateBtn,.ztOperateBtnSmall{
+    display:block;
+    float:left;
+    width:80px;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #B6BECD;
+    border-radius: 4px;
+    font: 14px/40px "Microsoft YaHei";
+    color:#4A4A4A;
+    margin-top:16px;
+}
+a.ztOperateBtn:hover{
+    background:#507BFC;
+    color:#FFFFFF;
+}
+.ztOperateDelBtn{
+    margin-left:20px;
+}
+.ztOperateDelBtnSmall{margin-left:20px;}
+.ztOperateCancelBtn{
+    margin-left:90px;
+}
+.ztOperateCancelBtnSmall{margin-left:30px;}
+.ztOperateBtn.cur{
+    background:#507BFC;
+    color:#FFFFFF;
+}
+
+/*删除确认弹窗  End*/
+.bgDelBox{display:none;position:fixed;z-index:100;left:0;top:0;bottom:0;right:0;width:100%;height:100%;background-color:rgba(0,0,0,0.6)}
+.xfocus_04{position:relative;width:600px;}
+.xfocus_04 .prev4 span,.xfocus_04 .next4 span{display:inline-block;background-image:url(http://icon.xcar.com.cn/2014/template/images/slider-arrows.png);background-repeat:no-repeat;width:38px;height:88px}
+.xfocus_04 .prev4,.xfocus_04 .next4{display:block;position:absolute;z-index:5;top:138px;width:38px;height:88px;cursor:pointer;border:1px solid #222;background-color:rgba(0,0,0,.6);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000',endColorstr='#99000000')}
+:root .xfocus_04 .prev4,:root .xfocus_04 .next4{filter:none;background-color:rgba(0,0,0,0.6)}
+.xfocus_04 .prev4{left:0px}
+.xfocus_04 .prev4 span{background-position:-2px 0}
+.xfocus_04 .next4{right:0px}
+.xfocus_04 .next4 span{background-position:-36px 0}
+.xfocus_04 .view{position:relative;width:600px;height:388px;overflow:hidden;background: #000}
+.xfocus_04 .text{position:relative;height:39px;overflow:hidden}
+.xfocus_04 .view li{position:absolute;top:0;left:0;display:none}
+.xfocus_04 .view li.current{display:block;}
+.xfocus_04 .view li img{width: 600px;}
+.xfocus_04 .text li{display:none;height:38px;background-color:#f8f8f8;font:normal 14px/38px 'Microsoft YaHei';text-align:center}
+.xfocus_04 .text .current{display:block}
+.xfocus_04 .slider{position:absolute;z-index:12;top:195px;width:350px;height:12px;text-align:center}
+.xfocus_04 .slider li{display:inline-block;width:11px;height:11px;overflow:hidden;margin:0 3px;background:url(http://icon.xcar.com.cn/2013/index/images/focus_slider1.png) no-repeat;_background:0;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://icon.xcar.com.cn/2013/index/images/focus_slider1.png");cursor:pointer}.xfocus_04 .slider li{*display:inline;}
+.xfocus_04 .slider .current{background:url(http://icon.xcar.com.cn/2013/index/images/focus_slider2.png) no-repeat;_background:0;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://icon.xcar.com.cn/2013/index/images/focus_slider2.png")}
+.box-contentFocus{
+    width: 960px;
+    height: 388px;
+}
+.box-content-listFocus{
+    width: 360px;
+    height: 388px;
+    background: #373737;
+}
+.box-content-listFocus .text ul li{
+    height: 388px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:15px;
+}
+.box-content-listFocus .text ul li a{
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family:'Microsoft YaHei'
+}
+.box-content-listFocus .text ul li a.moreA:hover{
+    text-decoration: underline;
+}
+.box-content-listFocus .text ul li .current-box{
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 260px;
+    line-height:24px;
+    overflow: hidden;
+    word-break:break-all;
+    text-align: left;
+    padding:10px 10px 10px 10px;
+}
+.text-ctl ul li{
+    line-height: 0px!important;
+}
+.banner1{
+    position: absolute;
+}
+.all-nav-title{
+    text-align: right;margin-right: 20px;position: absolute;bottom: 6%;right: 0%
+}
+.editor_common_syl{
+    overflow: auto;
+    height:calc(100vh - 80px - 40px)
+}
+.stay-consultation,.stay-consultation-one,.stay-consultation-one-input,.stay-consultation-body li,.stay-consultation-input{box-sizing: content-box;}
+.stay-consultation-age input,.stay-consultation-one-age input{-webkit-appearance: radio;margin-top: 15px;}
+.stay-consultation-age input,.stay-consultation-age span,.stay-consultation-one-age input,.stay-consultation-one-age span{display: block;float: left;}
+.stay-consultation-age-t input,.stay-consultation-one-age-t input{display:block;float:left;margin-top:4px;-webkit-appearance:checkbox}
+.cartype,.business{-webkit-appearance: radio}
+
+.selectDiv{z-index:100;
+    display:none;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;top:0;
+    width:100%;
+    height:100%;
+    border:3px solid #f40;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

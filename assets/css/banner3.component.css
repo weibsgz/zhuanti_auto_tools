@@ -1,0 +1,95 @@
+#featured-area {
+    position:absolute;
+    /*left:-5px;*/
+    left:0px;
+    height:334px;
+    width: 960px;
+    padding-top:26px;
+    margin:0px auto;
+    border:none;
+}
+#featured-area img{
+    border:none
+}
+
+.roundabout-holder {
+    list-style:none;
+    width:500px;
+    height:300px;
+    margin:0px auto;
+}
+
+.roundabout-moveable-item {
+    font-size:12px!important;
+    height:360px; width:640px;
+    cursor:pointer; padding:5px;
+    /*border:1px solid #aaaaaa;*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    /*background:#f9f9f9;*/
+}
+
+.roundabout-moveable-item img {
+    height:100%;
+    width:100%;
+    background-color:#FFFFFF;
+    margin:0;
+}
+
+.roundabout-in-focus {
+    cursor:auto;
+    /*border:solid 2px #999;*/
+}
+
+.roundabout-in-focus:hover {
+    /*-webkit-box-shadow:0px 0px 20px #787878;*/
+    /*-moz-box-shadow:0px 0px 20px #787878;*/
+    /*background:#f9f9f9;*/
+}
+
+.roundabout-holder span {
+    display:none;
+    font-size:11px;
+}
+
+.roundabout-in-focus:hover span {
+    display:inline;
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    padding:8px 10px;
+    /*background:#f9f9f9;*/
+    color:#8A428B;
+    z-index:999;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topLeft: 5px;
+    font-size : 11px;
+    /*border-left:1px solid #aaaaaa;*/
+    /*border-top:1px solid #aaaaaa;*/
+}
+
+.roundabout a:active, .roundabout a:focus, .roundabout a:visited {
+    outline:none;
+    text-decoration:none;
+}
+
+.roundabout li {
+    margin:0
+}
+._blank-style-box{
+    width: 100%;
+    background:rgba(0,0,0,0.8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF000000,endColorstr=#FF000000);
+    position: absolute;
+    bottom: 0px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.banner3{
+    position: absolute;
+}

@@ -1,0 +1,153 @@
+/* tuwen1 css start*/
+.tuwen-wrapper{
+    width:458px;
+    height: 297px;
+    overflow: hidden;
+    position: absolute;
+    
+}
+.tuwen-wrapper .img{
+    /* width: 458px;
+    height: 247px; */
+    width: 100%;
+    height: 83%;
+    border:0;
+}
+
+.tuwen-wrapper .img img{
+    /* width: 458px;
+    height: 247px; */
+    width: 100%;
+    height: 100%;
+    border:0;
+}
+.tuwen-wrapper .title{
+    position: static!important;
+    text-align: center;
+    font-size: 22px;
+    cursor: default;
+    color: #fff;
+    /* height: 50px; */
+    height: 17%;
+    line-height: 50px;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF000000,endColorstr=#FF000000); 
+    background: rgba(0,0,0,.8);
+
+}
+.tuwen-wrapper .desc{
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 80px;
+    padding:0 10px;
+    padding-top:0;
+    font-family:"Microsoft YaHei";
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF000000,endColorstr=#FF000000); 
+    background: rgba(0,0,0,.8);
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.tuwen-wrapper .desc p{
+   padding:0;
+   margin:0;
+   cursor: default;
+}
+.tuwen-wrapper .desc a{
+    display: inline-block;
+    margin-left: 20px;
+    color: red;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-decoration:none;
+}
+
+.tuwen-wrapper .desc a:hover{
+   text-decoration: underline;
+}
+
+/*tuwen1 css end*/
+
+
+
+
+
+
+
+
+
+
+
+/* tuwen2 css start*/
+.tuwen-wrapper2{
+    width:458px;
+    height: 377px;
+    overflow: hidden;
+    position: absolute;
+    
+}
+.tuwen-wrapper2 .img{
+    /* width: 458px;
+    height: 247px; */
+    width: 100%;
+    height: 65%;
+    border:0;
+}
+
+.tuwen-wrapper2 .img img{
+    /* width: 458px;
+    height: 247px; */
+    width: 100%;
+    height: 100%;
+    border:0;
+}
+.tuwen-wrapper2 .title{
+    position: static!important;
+    text-align: center;
+    font-size: 22px;
+    cursor: default;
+    color: #fff;
+    /* height: 50px; */
+    height: 13%;
+    line-height: 50px;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF000000,endColorstr=#FF000000); 
+    background: rgba(0,0,0,.8);
+
+}
+.tuwen-wrapper2 .desc{
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 22%;
+    padding:0 10px;
+    padding-top:0;
+    font-family:"Microsoft YaHei";
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF000000,endColorstr=#FF000000); 
+    background: rgba(0,0,0,.8);
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.tuwen-wrapper2 .desc p{
+   padding:0;
+   margin:0;
+   cursor: default;
+}
+.tuwen-wrapper2 .desc a{
+    display: inline-block;
+    margin-left: 20px;
+    color: red;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-decoration:none;
+}
+
+.tuwen-wrapper2 .desc a:hover{
+   text-decoration: underline;
+}
+
+/*tuwen2 css end*/

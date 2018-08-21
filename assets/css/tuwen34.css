@@ -1,0 +1,145 @@
+/*tuwen 3 start*/
+.tuwen-wrapper34{
+    width:308px;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    
+}
+.tuwen-wrapper34 .img{
+    /* width: 308px;
+    height: 155px; */
+    width: 100%;
+    height: 78%;
+}
+
+.tuwen-wrapper34 .img img{
+    /* width: 308px;
+    height: 155px; */
+    width: 100%;
+    height: 100%;
+    border:0;
+}
+.tuwen-wrapper34 .title{
+    position: static!important;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 0 5px;
+     /* height: 45px; */
+     height: 22%;
+    line-height: 45px;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff000000,endColorstr=#ff000000); 
+    background: rgba(0,0,0,.8);    
+    cursor: default;
+
+}
+.tuwen-wrapper34 .desc{
+    position: relative;
+    overflow: hidden;
+    height: 76px;
+    padding:0 10px;
+    padding-top:0;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff000000,endColorstr=#ff000000);
+    background: rgba(0,0,0,.8);
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+}
+
+
+
+.tuwen-wrapper34 .desc p{
+   padding:0;
+   margin:0;
+   cursor: default;
+}
+.tuwen-wrapper34 .desc a{
+    display: inline-block;
+    margin-left: 20px;
+    color: red;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-decoration: none;
+}
+.tuwen-wrapper34 .desc a:hover{
+    text-decoration: underline;
+ }
+
+
+ /*tuwen 3 end*/
+
+
+
+
+ /*tuwen 4 start*/
+ .tuwen-wrapper4{
+    width:308px;
+    height: 276px;
+    overflow: hidden;
+    position: absolute;
+    
+}
+.tuwen-wrapper4 .img{
+    /* width: 308px;
+    height: 155px; */
+    width: 100%;
+    height: 56%;
+}
+
+.tuwen-wrapper4 .img img{
+    /* width: 308px;
+    height: 155px; */
+    width: 100%;
+    height: 100%;
+    border:0;
+}
+.tuwen-wrapper4 .title{
+    position: static!important;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+     /* height: 45px; */
+     height: 16%;
+    line-height: 45px;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff000000,endColorstr=#ff000000); 
+    background: rgba(0,0,0,.8);    
+    cursor: default;
+
+}
+.tuwen-wrapper4 .desc{
+    position: relative;
+    overflow: hidden;
+    height: 28%;
+    padding:0 10px;
+    padding-top:0;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff000000,endColorstr=#ff000000);
+    background: rgba(0,0,0,.8);
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+}
+
+
+
+.tuwen-wrapper4 .desc p{
+   padding:0;
+   margin:0;
+   cursor: default;
+}
+.tuwen-wrapper4 .desc a{
+    display: inline-block;
+    margin-left: 20px;
+    color: red;
+    position: absolute;
+    right: 10px;
+   
+    text-decoration: none;
+}
+.tuwen-wrapper4 .desc a:hover{
+    text-decoration: underline;
+ }
+
+  /*tuwen 4 end*/

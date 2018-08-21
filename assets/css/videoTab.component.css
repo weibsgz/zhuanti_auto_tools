@@ -1,0 +1,15 @@
+.videoBigTab{position:relative;width:770px;height:495px;}
+.videoBigTab .prevTab span,.videoBigTab .nextTab span{display:inline-block;background-image:url(http://icon.xcar.com.cn/2014/template/images/slider-arrows.png);background-repeat:no-repeat;width:38px;height:88px}
+.videoBigTab .prevTab,.videoBigTab .nextTab{display:none;position:absolute;z-index:5;top:50%;width:38px;height:88px;margin-top:-44px;cursor:pointer;border:1px solid #222;background-color:rgba(0,0,0,.6);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000',endColorstr='#99000000')}
+:root .videoBigTab .prevTab,:root .videoBigTab .nextTab{filter:none;background-color:rgba(0,0,0,0.6)}
+.videoBigTab .prevTab:hover,.videoBigTab .nextTab:hover{background-color:rgba(0,0,0,1);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#ff000000',endColorstr='#ff000000')}
+:root .videoBigTab .prevTab:hover,:root .videoBigTab .nextTab:hover{filter:none;background-color:rgba(0,0,0,1)}
+.videoBigTab .prevTab{left:0px}
+.videoBigTab .prevTab span{background-position:-2px 0}
+.videoBigTab .nextTab{right:0px}
+.videoBigTab .nextTab span{background-position:-36px 0}
+.videoBigTab .view{position:relative;width:770px;height:495px;margin:0 auto;overflow:hidden;}
+.videoBigTab .text{position:relative;height:39px;overflow:hidden}
+.videoBigTab .view li{position:absolute;top:0;left:0;display:none}
+.videoBigTab .view li.current{display:block;}
+.box-contentBigTab{width:770px;display: none;}

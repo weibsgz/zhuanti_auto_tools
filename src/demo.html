@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href=" http://code.ciaoca.com/jquery/jcrop/demo/css/jquery.Jcrop.css">
+
+    <script src="http://icon.xcar.com.cn/2014/muban/js/jquery-1.8.3.min.js"></script>
+    <script src="jquery.Jcrop.js"></script>
+
+</head>
+
+<body>
+    <button id="add">增加</button>
+    <button id="add1">增加1</button>
+    <button id="add3">增加高度</button>
+    <div class="example">
+        <!-- <div class="jcrop-holder" style="width: 500px; height: 330px; position: relative; background-color: black;">
+
+           -->
+            <p id="target" style="display: block;color:#FFFFFF; visibility: visible; border: none; margin: 0px; padding: 0px; background:#000;width:200px;height:200px; opacity: 1;">
+               123333234234
+            </p>
+           
+        <!-- </div> -->
+    </div>
+
+
+    <script>
+        jQuery(function ($) {
+            // I did JSON.stringify(jcrop_api.tellSelect()) on a crop I liked:
+$("#add3").on('click',function(){
+   jcropapi.setImage2('http://pic.xcarimg.com/img/xbb/pic/201807/2018072315323123623275.jpg')
+  
+})
+var jcropapi;
+            $("#add").on('click', function () {
+              $('#target').Jcrop({
+
+                    setSelect: [13, 7, 487, 107]
+                },function(){
+                    jcropapi=this;
+                    console.log(this)
+                   
+                });
+              
+            });
+                $("#add1").on('click', function () {
+                    $('#target1').Jcrop({
+
+                        setSelect: [13, 114, 487, 221]
+                    });
+                })
+
+            })
+
+      
+
+    </script>
+</body>
+
+</html>

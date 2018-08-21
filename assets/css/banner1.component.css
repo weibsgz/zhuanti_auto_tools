@@ -1,0 +1,68 @@
+.xfocus_04{position:relative;width:60%;height: 100%}
+.xfocus_04 .prev4 span,.xfocus_04 .next4 span{display:inline-block;background-image:url(http://icon.xcar.com.cn/2014/template/images/slider-arrows.png);background-repeat:no-repeat;width:38px;height:88px}
+.xfocus_04 .prev4,.xfocus_04 .next4{display:none;position:absolute;z-index:5;top:35%;width:38px;height:88px;cursor:pointer;border:1px solid #222;background-color:rgba(0,0,0,.6);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000',endColorstr='#99000000')}
+:root .xfocus_04 .prev4,:root .xfocus_04 .next4{filter:none;background-color:rgba(0,0,0,0.6)}
+.xfocus_04 .prev4:hover,.xfocus_04 .next4:hover{background-color:rgba(0,0,0,1);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#ff000000',endColorstr='#ff000000')}
+:root .xfocus_04 .prev4:hover,:root .xfocus_04 .next:hover{filter:none;background-color:rgba(0,0,0,1)}
+.xfocus_04 .prev4{left:0px}
+.xfocus_04 .prev4 span{background-position:-2px 0}
+.xfocus_04 .next4{right:0px}
+.xfocus_04 .next4 span{background-position:-36px 0}
+.xfocus_04 .view{position:relative;width:100%;height:100%;overflow:hidden;background: #000}
+.xfocus_04 .text{position:relative;height:39px;overflow:hidden}
+.xfocus_04 .view li{position:absolute;top:0;left:0;display:none;height: 100%;width: 100%}
+.xfocus_04 .view li.current{display:block;}
+.xfocus_04 .view li img{width: 100%;height: 100%}
+.xfocus_04 .text li{display:none;height:38px;background-color:#f8f8f8;font:normal 14px/38px 'Microsoft YaHei';text-align:center}
+.xfocus_04 .text .current{display:block}
+.xfocus_04 .slider{position:absolute;z-index:12;top:195px;width:350px;height:12px;text-align:center}
+.xfocus_04 .slider li{display:inline-block;width:11px;height:11px;overflow:hidden;margin:0 3px;background:url(http://icon.xcar.com.cn/2013/index/images/focus_slider1.png) no-repeat;_background:0;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://icon.xcar.com.cn/2013/index/images/focus_slider1.png");cursor:pointer}.xfocus_04 .slider li{*display:inline;}
+.xfocus_04 .slider .current{background:url(http://icon.xcar.com.cn/2013/index/images/focus_slider2.png) no-repeat;_background:0;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://icon.xcar.com.cn/2013/index/images/focus_slider2.png")}
+.box-contentFocus{
+    width: 960px;
+    height: 388px;
+}
+.box-content-listFocus{
+    width: 40%;
+    height: 100%;
+    background: #373737;
+}
+.box-content-listFocus .text ul li{
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:15px;
+}
+.box-content-listFocus .text ul li a{
+    color: #fff;
+    box-sizing: border-box;
+   
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-family:'Microsoft YaHei'
+}
+.box-content-listFocus .text ul li a.moreA:hover{
+    text-decoration: underline;
+}
+.box-content-listFocus .text ul li .current-box{
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+    /*height: 260px;*/
+    height: 100%;
+    line-height:24px;
+    overflow: hidden;
+    word-break:break-all;
+    text-align: left;
+    padding:10px 10px 10px 10px;
+}
+.text-ctl ul li{
+    line-height: 0px!important;
+}
+.banner1{
+    position: absolute;
+}
+.all-nav-title{
+    text-align: right;margin-right: 20px;position: absolute;bottom: 6%;right: 0%
+}

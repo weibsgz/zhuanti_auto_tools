@@ -1,0 +1,38 @@
+.xfocus_05{width:958px;height:480px; position:relative;}
+.xfocus_05 .view{position:absolute;z-index:1;width:100%;height:100%; overflow:hidden;}
+.xfocus_05 .view li{position:absolute;top:0;left:0;display:none;width: 100%;height: 100%}
+.xfocus_05 .view li.current{display:block;
+}
+.xfocus_05 .view li img{width:100%;height:100%;}
+.xfocus_05 .text li.current{ display:block;}
+.xfocus_05 .text{position: absolute;bottom: 0;left:0;z-index:2;width: 100%;overflow:hidden;font: bold 22px/72px 'microsoft yahei';color: #fff;text-indent: 26px;background: url(http://icon.xcar.com.cn/2014/drive/images/png24bg.png?2014) repeat-x center top;_background: none;_filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#00000000', endColorstr='#CC000000',gradientType='0');}
+.xfocus_05 .text a{color:#fff;}
+.xfocus_05 .text li{ display:none;}
+.xfocus_05 .prev1 span,
+.xfocus_05 .next1 span{position:absolute;top:0;background:url(http://icon.xcar.com.cn/2015/index/images/pt_index_bg_v2.png);display:inline-block;width:79px;height:54px;}
+.xfocus_05 .prev1,
+.xfocus_05 .next1{display:inline-block;position:absolute;z-index:5;top:31%;width:5%;height:30%;overflow:hidden;cursor:pointer;background-color:rgba(0,0,0,.6);filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000',endColorstr='#99000000')}
+:root .xfocus_05 .prev,:root .xfocus_05 .next{filter:none;background-color:rgba(0,0,0,0.6)}
+
+/*.xfocus_05 .next:hover{height:54px;text-decoration:none;}*/
+.xfocus_05 .prev1 em{color:#fff;font:normal 12px/16px Arial;position:absolute;top:14px;right:27px;}
+.xfocus_05 .prev1 i{color:#fff;font:normal 12px/16px Arial;position:absolute;top:27px;left:63px;}
+.xfocus_05 .next1 em{color:#fff;font:normal 12px/16px Arial;position:absolute;top:15px;right:62px;}
+.xfocus_05 .next1 i{color:#fff;font:normal 12px/16px Arial;position:absolute;top:28px;left:27px;}
+.xfocus_05 .prev1{left:1px}
+.xfocus_05 .prev1 span{background-position:1% -197px;left:11%;top:27%;}
+.xfocus_05 .next1{right:1px}
+.xfocus_05 .next1 span{background-position:0% -288px;right:9%;top:30%;}
+.xfocus_05 .slider{position:absolute; z-index:3;bottom:7px;right:26px;width:auto;text-align:center;}
+.xfocus_05 .slider li{ display:inline-block;margin:0 3px;*display:inline;*zoom:1; width:22px;height:5px;background-color:#555;cursor:pointer}.xfocus_05 .slider li{*display:inline; overflow:hidden;}
+.xfocus_05 .slider li.current{background-color:#d5d5d5;}
+.text ul li{
+    width: 100%;
+    /*height: 77px;*/
+    background: #000000;
+    text-align: center;
+    /*line-height:77px ;*/
+}
+.banner2{
+    position: absolute;
+}
